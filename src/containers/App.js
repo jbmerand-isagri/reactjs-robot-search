@@ -46,7 +46,6 @@ class App extends Component { // a smart component (syntaxe class, contient stat
                         <a href="https://www.jbmerand.fr" title="portfolio de Jean-Baptiste Mérand">
                             <img id="logo" src={logo} alt="logo JBMérand"/>
                         </a>
-                    {/* <small className="light-blue">Réalisé par <a className="link blue underline-hover hover-light-gray" href="https://www.jbmerand.fr" title="portfolio de Jean-Baptiste Mérand">JBMérand</a></small> */}
                     </footer>            
                 </div>
             );

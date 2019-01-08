@@ -7,7 +7,7 @@ const Card = ({ name, email, id }) => { // destructuring props
              />
             <div>
                 <h2 className='navy'>{name}</h2>
-                <a className="link blue underline-hover hover-navy" href={email}>{email}</a>
+                <a className="link blue underline-hover hover-navy" href={`mailto:${email}`}>{email}</a>
             </div>
         </div>
     );
